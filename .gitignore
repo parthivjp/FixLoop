@@ -1,0 +1,4 @@
+node_modules
+.env
+.fixloop
+FIXLOOP_REPORT.md

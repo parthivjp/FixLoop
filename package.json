@@ -1,0 +1,17 @@
+{
+  "name": "fixloop",
+  "version": "1.0.0",
+  "description": "A self-healing AI agent: runs your failing tests, finds the bug, patches the code, and proves the fix.",
+  "type": "module",
+  "main": "src/agent.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "demo": "node src/agent.js demo/buggy-app",
+    "demo:reset": "node src/agent.js demo/buggy-app --rollback",
+    "selftest": "node test/selftest.js",
+    "e2e": "node test/e2e.js"
+  },
+  "license": "MIT"
+}
